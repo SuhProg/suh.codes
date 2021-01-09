@@ -202,10 +202,10 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-		-moz-animation: bg 60s linear infinite;
-		-webkit-animation: bg 60s linear infinite;
-		-ms-animation: bg 60s linear infinite;
-		animation: bg 60s linear infinite;
+		-moz-animation: bg 600s linear infinite;
+		-webkit-animation: bg 600s linear infinite;
+		-ms-animation: bg 600s linear infinite;
+		animation: bg 600s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -218,6 +218,8 @@ input, select, textarea {
 
 		background: #000 url("images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
+		background-position: 0;
+    	background-size: contain;
 		height: 100%;
 		left: 0;
 		opacity: .5;
